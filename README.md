@@ -18,7 +18,8 @@ Getting Started with AI on Jetson Nano
 2. jetson nano에 대하여
 3. <b> 
 jetson nano image
-![Uploading jetson-nano-dev-kit-top-r6-HR-B01.jpg…]()
+
+![jetson-nano-dev-kit-top-r6-HR-B01 (1)](https://github.com/user-attachments/assets/b845a744-9be0-47f7-abd0-e81373960e19)
 
 welcome 부터 따라하기 https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-RX-02+V2&unit=block-v1:DLI+S-RX-02+V2+type@vertical+block@aba5104413ae454c8c63a6f301925337
 
