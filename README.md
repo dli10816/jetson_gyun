@@ -35,7 +35,13 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 5. 제슨 알아보고 설치하기
 6. <b> 
 jetson nano image
-
+![image](https://github.com/user-attachments/assets/b04114c0-01c8-45b7-9c23-9e8d58494e8f)
+ <b> 
+jetson nano image
+![image](https://github.com/user-attachments/assets/7d33b4f0-9264-4370-9ac5-6f281b9ff99f)
+<b> 
+jetson nano image
+![image](https://github.com/user-attachments/assets/24bb74eb-eb81-41e8-9b61-7873a476d083)
 
 https://developer.nvidia.com/embedded/learn/jetson-nano-2gb-devkit-user-guide#id-.JetsonNano2GBDeveloperKitUserGuidevbatuu_v1.0-DeveloperKitSetup
 
