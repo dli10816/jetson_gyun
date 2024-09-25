@@ -33,6 +33,9 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
    4-2. balenaetcher download --->  이미지 굽기
    4-3. 제슨나노에 sd넣고 우분투 설치
 5. 제슨 알아보고 설치하기
+6. <b> 
+jetson nano image
+
 
 https://developer.nvidia.com/embedded/learn/jetson-nano-2gb-devkit-user-guide#id-.JetsonNano2GBDeveloperKitUserGuidevbatuu_v1.0-DeveloperKitSetup
 
