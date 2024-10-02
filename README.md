@@ -15,27 +15,28 @@ Getting Started with AI on Jetson Nano
         - 64기가 이상 마이크로sd카드
   
         - 그외 쿨링펜, lcd, 또는 모니터. hdmi
+<b> jetson nano image
 
 2. jetson nano에 대하여
-3. <b> jetson nano image
+   
 
 ![jetson-nano-dev-kit-top-r6-HR-B01 (1)](https://github.com/user-attachments/assets/b845a744-9be0-47f7-abd0-e81373960e19)
 
-welcome부터 따라하기 https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-RX-02+V2&unit=block-v1:DLI+S-RX-02+V2+type@vertical+block@aba5104413ae454c8c63a6f301925337
+환영부터 따라하기 https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-RX-02+V2&unit=block-v1:DLI+S-RX-02+V2+type@vertical+block@aba5104413ae454c8c63a6f301925337
 
-4. jetpack downloads
+3. jetpack downloads
 
 https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 
 
-5. 이미지 굽기 위해 필요한 것들.
+4. 이미지 굽기 위해 필요한 것들.
 
-   4-1. sd card formatter ---> download
+  ``` 4-1. sd card formatter ---> download
    4-2. balenaetcher download --->  이미지 굽기
    4-3. 제슨나노에 sd넣고 우분투 설치
+```
 
-
-6. 쿨링팬 설치 (0~255) 와 쿨링팬과 jtop (jtop : system monitoring tool) terminal을 열어줍니다.
+5. 쿨링팬 설치 (0~255) 와 쿨링팬과 jtop (jtop : system monitoring tool) terminal을 열어줍니다.
 ```
 sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm'
 ```
