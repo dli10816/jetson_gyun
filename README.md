@@ -110,8 +110,7 @@ nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr
 
 
 8. 제슨 알아보고 설치하기
-9. 
-![image](https://github.com/user-attachments/assets/b04114c0-01c8-45b7-9c23-9e8d58494e8f)
+9. ![image](https://github.com/user-attachments/assets/b04114c0-01c8-45b7-9c23-9e8d58494e8f)
  <b> 
 jetson nano image
 ![image](https://github.com/user-attachments/assets/7d33b4f0-9264-4370-9ac5-6f281b9ff99f)
