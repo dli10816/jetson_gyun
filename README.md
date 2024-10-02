@@ -56,7 +56,7 @@ nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
 0
 ```
 
- <b> jetson nano image
+ 
 ![unnamed](https://github.com/user-attachments/assets/4b1fa393-0493-4cd5-bf85-207d815e9583)
 
 이곳에 사진 넣고 영상 넣을 것 참고 링크 https://ndb796.tistory.com/557
