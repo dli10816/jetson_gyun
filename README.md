@@ -25,7 +25,7 @@ welcome 부터 따라하기 https://learn.nvidia.com/courses/course?course_id=co
 4. jetpack downloads
 
 https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
-![unnamed](https://github.com/user-attachments/assets/97e8c3bc-853e-4de3-913a-0da6640771e7)
+
 
 5. 이미지 굽기 위해 필요한 것들.
 
