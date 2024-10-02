@@ -17,6 +17,8 @@ Getting Started with AI on Jetson Nano
         - 그외 쿨링펜, lcd, 또는 모니터. hdmi
 
 ![jetson-nano-dev-kit-top-r6-HR-B01 (1)](https://github.com/user-attachments/assets/b845a744-9be0-47f7-abd0-e81373960e19)
+
+
 2. jetson nano에 대하여
 
 
@@ -36,6 +38,35 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 ```
 
 5. 쿨링팬 설치 (0~255) 와 쿨링팬과 jtop (jtop : system monitoring tool) terminal을 열어줍니다.
+   
+```
+dli@dli-desktop:~$ sudo apt install python3-pip
+
+       컴퓨터가 물어본다   do you want to continue ? Y
+
+dli@dli-desktop:~$  sudo -H pip3 install -U jetson-stats
+
+
+만약 에러가 나오면 sudo apt-get upgrade, 
+                                sudo apt-get update해준다.
+jetson-stats-4.2.3 가 써진 걸 확인. 
+```
+
+
+
+```
+dli@dli-desktop:~$ reboot
+dli@dli-desktop:~$ jtop
+
+온도체크 해 본다.
+온도가 무척 높다. 
+쿨링팬 설치
+```
+
+![Uploading image.png…]()
+
+
+
 ```
 sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm'
 ```
