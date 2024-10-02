@@ -16,8 +16,7 @@ Getting Started with AI on Jetson Nano
   
         - 그외 쿨링펜, lcd, 또는 모니터. hdmi
 2. jetson nano에 대하여
-3. <b> 
-jetson nano image
+3. <b> jetson nano image
 
 ![jetson-nano-dev-kit-top-r6-HR-B01 (1)](https://github.com/user-attachments/assets/b845a744-9be0-47f7-abd0-e81373960e19)
 
