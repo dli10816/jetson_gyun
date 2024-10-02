@@ -15,12 +15,13 @@ Getting Started with AI on Jetson Nano
         - 64기가 이상 마이크로sd카드
   
         - 그외 쿨링펜, lcd, 또는 모니터. hdmi
+
 2. jetson nano에 대하여
 3. <b> jetson nano image
 
 ![jetson-nano-dev-kit-top-r6-HR-B01 (1)](https://github.com/user-attachments/assets/b845a744-9be0-47f7-abd0-e81373960e19)
 
-welcome 부터 따라하기 https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-RX-02+V2&unit=block-v1:DLI+S-RX-02+V2+type@vertical+block@aba5104413ae454c8c63a6f301925337
+welcome부터 따라하기 https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-RX-02+V2&unit=block-v1:DLI+S-RX-02+V2+type@vertical+block@aba5104413ae454c8c63a6f301925337
 
 4. jetpack downloads
 
@@ -52,10 +53,8 @@ j
 nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
 1
 0
-결과
-![372466618-634eaeeb-1a8f-4bff-a953-55663eef1c7e](https://github.com/user-attachments/assets/2213f17f-03df-45db-a639-431923b4b82f)
-카메라 없어서 생기는 에러로 카메라 연결하고 다시 명령한다 dli@dli-desktop:~$ sudo docker run --runtime nvidia -it --rm --network host \
-
+결과![372466618-634eaeeb-1a8f-4bff-a953-55663eef1c7e](https://github.com/user-attachments/assets/2213f17f-03df-45db-a639-431923b4b82f)
+카메라 없어서 생기는 에러로 카메라 연결하고 다시 명령한다 dli@dli-desktop:~$ sudo docker run --runtime nvidia -it --rm --network host
 --memory=500M --memory-swap=4G \
 --volume ~/nvdli-data:/nvdli-nano/data \
 --volume /tmp/argus_socket:/tmp/argus_socket \
