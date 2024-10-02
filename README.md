@@ -25,6 +25,7 @@ welcome 부터 따라하기 https://learn.nvidia.com/courses/course?course_id=co
 4. jetpack downloads
 
 https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
+![unnamed](https://github.com/user-attachments/assets/97e8c3bc-853e-4de3-913a-0da6640771e7)
 
 5. 이미지 굽기 위해 필요한 것들.
 
@@ -58,6 +59,11 @@ nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
 --volume /tmp/argus_socket:/tmp/argus_socket \
 --device /dev/video0 \
 nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr
+
+ <b> jetson nano image
+![unnamed](https://github.com/user-attachments/assets/4b1fa393-0493-4cd5-bf85-207d815e9583)
+
+
 8. 제슨 알아보고 설치하기
 9. <b> 
 jetson nano image
