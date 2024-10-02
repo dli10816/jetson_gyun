@@ -42,8 +42,17 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
    ![image](https://github.com/user-attachments/assets/2d3a9737-25b4-4eea-ae04-167654a06b48)
 
 
-5. 쿨링팬 설치 (0~255) 와 쿨링팬과 jtop (jtop : system monitoring tool) terminal을 열어줍니다.
-   
+5. 쿨링팬 설치 (0~255) 와 쿨링팬과 
+
+쿨링팬
+
+ 
+ ```
+sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm'
+```
+
+jtop (jtop : system monitoring tool) terminal을 열어줍니다.
+
 ```
 dli@dli-desktop:~$ sudo apt install python3-pip
 
@@ -71,9 +80,6 @@ dli@dli-desktop:~$ jtop
 
 
 
-```
-sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm'
-```
 
 
 6. USB-Camera 얼굴의 코 눈 인식하는 것도 해봄, 이미지 캡쳐와 영상 녹화 CCTV기능 구현 J는 이미지 캡쳐, 1은 영상 녹화 시작 0은 영상녹화 스톱 mode=1은 사진, mode=2는 영상
@@ -93,6 +99,7 @@ nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
 
  
 ![unnamed](https://github.com/user-attachments/assets/4b1fa393-0493-4cd5-bf85-207d815e9583)
+
 
 이곳에 사진 넣고 영상 넣을 것 참고 링크 https://ndb796.tistory.com/557
 
