@@ -23,22 +23,22 @@ jetson nano image
 
 welcome 부터 따라하기 https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-RX-02+V2&unit=block-v1:DLI+S-RX-02+V2+type@vertical+block@aba5104413ae454c8c63a6f301925337
 
-3. jetpack downloads
+4. jetpack downloads
 
 https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 
-4. 이미지 굽기 위해 필요한 것들.
+5. 이미지 굽기 위해 필요한 것들.
 
    4-1. sd card formatter ---> download
    4-2. balenaetcher download --->  이미지 굽기
    4-3. 제슨나노에 sd넣고 우분투 설치
 
-5. 쿨링팬 설치 (0~255) 와 쿨링팬과 jtop (jtop : system monitoring tool) terminal을 열어줍니다.
+6. 쿨링팬 설치 (0~255) 와 쿨링팬과 jtop (jtop : system monitoring tool) terminal을 열어줍니다.
 ```
 sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm'
 ```
 
-6. USB-Camera 얼굴의 코 눈 인식하는 것도 해봄, 이미지 캡쳐와 영상 녹화 CCTV기능 구현 J는 이미지 캡쳐, 1은 영상 녹화 시작 0은 영상녹화 스톱 mode=1은 사진, mode=2는 영상
+7. USB-Camera 얼굴의 코 눈 인식하는 것도 해봄, 이미지 캡쳐와 영상 녹화 CCTV기능 구현 J는 이미지 캡쳐, 1은 영상 녹화 시작 0은 영상녹화 스톱 mode=1은 사진, mode=2는 영상
 
 git clone https://github.com/jetsonhacks/USB-Camera.git
 cd USB-Camera
@@ -59,8 +59,8 @@ nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
 --volume /tmp/argus_socket:/tmp/argus_socket \
 --device /dev/video0 \
 nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr
-5. 제슨 알아보고 설치하기
-6. <b> 
+8. 제슨 알아보고 설치하기
+9. <b> 
 jetson nano image
 ![image](https://github.com/user-attachments/assets/b04114c0-01c8-45b7-9c23-9e8d58494e8f)
  <b> 
@@ -72,10 +72,10 @@ jetson nano image
 
 https://developer.nvidia.com/embedded/learn/jetson-nano-2gb-devkit-user-guide#id-.JetsonNano2GBDeveloperKitUserGuidevbatuu_v1.0-DeveloperKitSetup
 
-6. image classification - Thumbs Project using ResNet
+10. image classification - Thumbs Project using ResNet
 
 https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-RX-02+V2&unit=block-v1:DLI+S-RX-02+V2+type@vertical+block@aabe204272214ba69309581d388b0734
 
-5. image regression - Face XY Project
+11. image regression - Face XY Project
 
 https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-RX-02+V2&unit=block-v1:DLI+S-RX-02+V2+type@vertical+block@76a2873eb69946b4928c4f8432e04314
