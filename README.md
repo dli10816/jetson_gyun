@@ -53,8 +53,8 @@ j
 nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
 1
 0
-결과![372466618-634eaeeb-1a8f-4bff-a953-55663eef1c7e](https://github.com/user-attachments/assets/2213f17f-03df-45db-a639-431923b4b82f)
-카메라 없어서 생기는 에러로 카메라 연결하고 다시 명령한다 dli@dli-desktop:~$ sudo docker run --runtime nvidia -it --rm --network host
+결과
+![372466618-634eaeeb-1a8f-4bff-a953-55663eef1c7e](https://github.com/user-attachments/assets/2213f17f-03df-45db-a639-431923b4b82f) 카메라 없어서 생기는 에러로 카메라 연결하고 다시 명령한다 dli@dli-desktop:~$ sudo docker run --runtime nvidia -it --rm --network host
 --memory=500M --memory-swap=4G \
 --volume ~/nvdli-data:/nvdli-nano/data \
 --volume /tmp/argus_socket:/tmp/argus_socket \
@@ -62,9 +62,14 @@ nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
 nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr
 
 
+
+
+ 
+ 
  
  <b> jetson nano image
 ![unnamed](https://github.com/user-attachments/assets/4b1fa393-0493-4cd5-bf85-207d815e9583)
+
 
 
 
