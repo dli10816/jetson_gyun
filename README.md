@@ -33,10 +33,12 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
    4-2. balenaetcher download --->  이미지 굽기
    4-3. 제슨나노에 sd넣고 우분투 설치
 
+
 6. 쿨링팬 설치 (0~255) 와 쿨링팬과 jtop (jtop : system monitoring tool) terminal을 열어줍니다.
 ```
 sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm'
 ```
+
 
 7. USB-Camera 얼굴의 코 눈 인식하는 것도 해봄, 이미지 캡쳐와 영상 녹화 CCTV기능 구현 J는 이미지 캡쳐, 1은 영상 녹화 시작 0은 영상녹화 스톱 mode=1은 사진, mode=2는 영상
 
@@ -60,8 +62,11 @@ nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
 --device /dev/video0 \
 nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr
 
+
+ 
  <b> jetson nano image
 ![unnamed](https://github.com/user-attachments/assets/4b1fa393-0493-4cd5-bf85-207d815e9583)
+
 
 
 8. 제슨 알아보고 설치하기
