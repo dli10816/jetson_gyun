@@ -15,7 +15,7 @@ Getting Started with AI on Jetson Nano
         - 64기가 이상 마이크로sd카드
   
         - 그외 쿨링펜, lcd, 또는 모니터. hdmi
-<b> jetson nano image
+
 ![jetson-nano-dev-kit-top-r6-HR-B01 (1)](https://github.com/user-attachments/assets/b845a744-9be0-47f7-abd0-e81373960e19)
 2. jetson nano에 대하여
 
@@ -29,7 +29,8 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 
 4. 이미지 굽기 위해 필요한 것들.
 
-  ``` 4-1. sd card formatter ---> download
+```
+   4-1. sd card formatter ---> download
    4-2. balenaetcher download --->  이미지 굽기
    4-3. 제슨나노에 sd넣고 우분투 설치
 ```
