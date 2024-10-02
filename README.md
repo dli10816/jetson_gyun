@@ -32,6 +32,33 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
    4-1. sd card formatter ---> download
    4-2. balenaetcher download --->  이미지 굽기
    4-3. 제슨나노에 sd넣고 우분투 설치
+
+5. 쿨링팬 설치 (0~255) 와 쿨링팬과 jtop (jtop : system monitoring tool) terminal을 열어줍니다.
+```
+sudo sh -c 'echo 128 > /sys/devices/pwm-fan/target_pwm'
+```
+
+6. USB-Camera 얼굴의 코 눈 인식하는 것도 해봄, 이미지 캡쳐와 영상 녹화 CCTV기능 구현 J는 이미지 캡쳐, 1은 영상 녹화 시작 0은 영상녹화 스톱 mode=1은 사진, mode=2는 영상
+
+git clone https://github.com/jetsonhacks/USB-Camera.git
+cd USB-Camera
+ls
+python3 usb-camera-gst.py 
+python3  face-detect-usb.py
+nvgstcapture-1.0 --mode=1 --camsrc=0 --cap-dev-node=0
+j
+nvgstcapture-1.0 --mode=2 --camsrc=0 --cap-dev-node=0
+1
+0
+결과
+![372466618-634eaeeb-1a8f-4bff-a953-55663eef1c7e](https://github.com/user-attachments/assets/2213f17f-03df-45db-a639-431923b4b82f)
+카메라 없어서 생기는 에러로 카메라 연결하고 다시 명령한다 dli@dli-desktop:~$ sudo docker run --runtime nvidia -it --rm --network host \
+
+--memory=500M --memory-swap=4G \
+--volume ~/nvdli-data:/nvdli-nano/data \
+--volume /tmp/argus_socket:/tmp/argus_socket \
+--device /dev/video0 \
+nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr
 5. 제슨 알아보고 설치하기
 6. <b> 
 jetson nano image
