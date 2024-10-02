@@ -63,7 +63,7 @@ dli@dli-desktop:~$ jtop
 쿨링팬 설치
 ```
 
-![Uploading image.png…]()
+![jetson-nano-dev-kit-top-r6-HR-B01 [Uploading image.png…]()
 
 
 
